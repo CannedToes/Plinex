@@ -1,5 +1,0 @@
-{
-    "mesonbuild.configureOnOpen": true,
-    "C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild",
-    "C_Cpp.default.compileCommands": "/home/myles/Projects/Plinex/builddir/compile_commands.json"
-}

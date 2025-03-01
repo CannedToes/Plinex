@@ -1,0 +1,8 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+data/org.cannedToes.plinex.desktop.in
+data/org.cannedToes.plinex.metainfo.xml.in
+data/org.cannedToes.plinex.gschema.xml
+src/main.c
+src/plinex-window.c
+src/plinex-window.ui

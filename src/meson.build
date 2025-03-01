@@ -1,8 +1,3 @@
-plinex_sources = [
-<<<<<<< HEAD
-  'main.cpp',
-]
-
 plinex_deps = [
 ]
 

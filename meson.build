@@ -91,4 +91,3 @@ gnome.post_install(
     gtk_update_icon_cache: true,
   update_desktop_database: true,
 )
->>>>>>> a893429 (switched to C and GNOME application preset)

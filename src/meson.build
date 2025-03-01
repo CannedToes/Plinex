@@ -1,15 +1,8 @@
-plinex_deps = [
-]
-
-executable('plinex', plinex_sources,
-  dependencies: plinex_deps,
-  install: true,
-)
-
-=======
-  'main.c',
+plinex_sources = [
+  'plinex-resources.c',
   'plinex-application.c',
   'plinex-window.c',
+  'main.c',
 ]
 
 plinex_deps = [
@@ -26,4 +19,3 @@ executable('plinex', plinex_sources,
   dependencies: plinex_deps,
        install: true,
 )
->>>>>>> a893429 (switched to C and GNOME application preset)

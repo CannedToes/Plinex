@@ -33,3 +33,5 @@
 
 # VS Code files
 .vscode/
+.flatpak/
+_build/

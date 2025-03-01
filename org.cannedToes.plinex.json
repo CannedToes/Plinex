@@ -1,0 +1,33 @@
+{
+    "id" : "org.cannedToes.plinex",
+    "runtime" : "org.freedesktop.Platform",
+    "runtime-version" : "23.08",
+    "sdk" : "org.freedesktop.Sdk",
+    "command" : "plinex",
+    "finish-args" : [
+    ],
+    "cleanup" : [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "*.la",
+        "*.a"
+    ],
+    "modules" : [
+        {
+            "name" : "plinex",
+            "builddir" : true,
+            "buildsystem" : "meson",
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "file:///home/myles/Projects"
+                }
+            ]
+        }
+    ]
+}

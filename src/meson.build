@@ -1,5 +1,4 @@
 plinex_sources = [
-  'plinex-resources.c',
   'plinex-application.c',
   'plinex-window.c',
   'main.c',

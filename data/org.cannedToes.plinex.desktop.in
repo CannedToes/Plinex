@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=plinex
-Exec=plinex
+Name=Plinex
+Exec=Plinex
 Icon=org.cannedToes.plinex
 Terminal=false
 Type=Application

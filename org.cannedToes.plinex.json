@@ -1,12 +1,5 @@
 {
     "id" : "org.cannedToes.plinex",
-<<<<<<< HEAD
-    "runtime" : "org.freedesktop.Platform",
-    "runtime-version" : "23.08",
-    "sdk" : "org.freedesktop.Sdk",
-    "command" : "plinex",
-    "finish-args" : [
-=======
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "47",
     "sdk" : "org.gnome.Sdk",
@@ -17,7 +10,6 @@
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland"
->>>>>>> a893429 (switched to C and GNOME application preset)
     ],
     "cleanup" : [
         "/include",

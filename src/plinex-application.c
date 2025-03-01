@@ -73,7 +73,7 @@ plinex_application_about_action (GSimpleAction *action,
                                  GVariant      *parameter,
                                  gpointer       user_data)
 {
-	static const char *developers[] = {"Myles", NULL};
+	static const char *developers[] = {"CannedToes", NULL};
 	PlinexApplication *self = user_data;
 	GtkWindow *window = NULL;
 
@@ -82,13 +82,13 @@ plinex_application_about_action (GSimpleAction *action,
 	window = gtk_application_get_active_window (GTK_APPLICATION (self));
 
 	adw_show_about_dialog (GTK_WIDGET (window),
-	                       "application-name", "plinex",
+	                       "application-name", "Plinex",
 	                       "application-icon", "org.cannedToes.plinex",
-	                       "developer-name", "Myles",
+	                       "developer-name", "CannedToes",
 	                       "translator-credits", _("translator-credits"),
 	                       "version", "0.1.0",
 	                       "developers", developers,
-	                       "copyright", "© 2025 Myles",
+	                       "copyright", "© 2025 Plinex",
 	                       NULL);
 }
 

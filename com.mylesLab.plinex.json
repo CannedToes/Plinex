@@ -22,7 +22,9 @@
         "*.la",
         "*.a"
     ],
-    "modules" : [        {
+    "modules" : [
+    	"python3-plex-api-client.json",
+        {
             "name" : "plinex",
             "builddir" : true,
             "buildsystem" : "meson",

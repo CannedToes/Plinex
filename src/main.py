@@ -25,7 +25,6 @@ gi.require_version('Adw', '1')
 
 from gi.repository import Gtk, Gio, Adw
 from .window import PlinexWindow
-from plex_api_client import PlexAPI
 
 class PlinexApplication(Adw.Application):
     """The main application singleton class."""

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=plinex
+Exec=plinex
+Icon=com.mylesLab.plinex
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=GTK;
+StartupNotify=true
+DBusActivatable=true

@@ -1,0 +1,8 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+data/com.mylesLab.plinex.desktop.in
+data/com.mylesLab.plinex.metainfo.xml.in
+data/com.mylesLab.plinex.gschema.xml
+src/main.py
+src/window.py
+src/window.ui

@@ -22,8 +22,7 @@
         "*.la",
         "*.a"
     ],
-    "modules" : [
-        {
+    "modules" : [        {
             "name" : "plinex",
             "builddir" : true,
             "buildsystem" : "meson",

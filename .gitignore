@@ -1,0 +1,7 @@
+build
+.flatpak-builder
+flatpak-builder-tools
+.git
+.venv
+*.swp
+*~

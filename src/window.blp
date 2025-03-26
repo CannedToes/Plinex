@@ -17,14 +17,20 @@ template $PlinexWindow: Adw.ApplicationWindow {
         menu-model: primary_menu;
       }
     }
-
-    content: Label label {
-      label: _("Hello, World!");
-
-      styles [
-        "title-1",
-      ]
-    };
+    Label{
+      label: "Hello World!";
+      margin-top: 50;
+    }
+    /*ScrolledWindow{
+      hexpand: true;
+      vexpand: true;
+      margin-top: 100;
+      margin-bottom: 100;
+      margin-start: 100;
+      margin-end: 100;
+      Gtk.TextView{
+      }
+    }*/
   };
 }
 

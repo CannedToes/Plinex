@@ -24,7 +24,7 @@ from gi.repository import Gtk
 class PlinexWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'PlinexWindow'
 
-    label = Gtk.Template.Child()
+    main_text_view = Gtk.Template.Child();
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
